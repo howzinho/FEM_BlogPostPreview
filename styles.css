@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: hsl(0, 0%, 42%);
+    font-size: 0.95rem;
+}
+
+.preview-box {
+    display: flexbox;
+    border: 1.5px solid hsl(0, 0%, 7%);
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+}
+
+.preview-image-box {
+    width: 340px;
+    height: 220px;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.preview-image {
+    width: 120%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.tags, .date-post, .post-title, .post-brief, .post-author{
+    margin: 6px;
+}
+
+.tags-learning{
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 6px 14px 6px 14px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.date-post{
+    font-size: 0.8rem;
+    width: fit-content;
+}
+
+.post-title{
+    font-size: 1.4rem;
+    font-weight: 800;
+    width: fit-content;
+}
+
+.post-author{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+
+.post-author-photo{
+    scale: 70%;
+}
+
+.post-author-name{
+    display: inline-block;
+    font-weight: 800;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.post-author-name:hover, .post-title:hover, .tags-learning:hover{
+    color: hsl(0, 0%, 42%);
+    cursor: pointer;
+}
