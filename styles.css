@@ -24,7 +24,7 @@ p{
 .preview-box {
     display: flexbox;
     border: 1.5px solid hsl(0, 0%, 7%);
-    width: 400px;
+    width: 375px;
     border-radius: 10px;
     overflow: hidden;
     padding: 20px;
@@ -84,6 +84,7 @@ p{
 }
 
 .attribution {
+    margin: 20px;
     font-size: 11px;
     text-align: center;
 }
